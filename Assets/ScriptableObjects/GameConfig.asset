@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6715f712db590364bac94dd1e2c4344b, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  RoadGenerationDistance: 100
+  RoadSegmentBehindDestroyDistance: 6
+  StartTemplates:
+  - {fileID: 11400000, guid: 3df38efa69bafc945996821baa14de33, type: 2}
+  - {fileID: 11400000, guid: 644bda228d17ee640a8075468443ab28, type: 2}
+  DefaultSegmentTemplate: {fileID: 11400000, guid: 843dc969ef66868479d6bfbbca5eda5d,
+    type: 2}
+  DefaultCarData: {fileID: 11400000, guid: 8228a46817b2fa545a1b3809f243d4b9, type: 2}
